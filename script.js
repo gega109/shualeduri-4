@@ -115,9 +115,7 @@ async function FetchData(userName) {
       office.textContent = "Undefined";
     }
   } catch (error) {
-    if (inputText.value !== userName) {
-        
-    }
+    console.log(error);
   }
 }
 

@@ -118,6 +118,7 @@ body {
   display: flex;
   padding: 45px;
   gap: 35px;
+  justify-content: center;
 }
 .info_box {
   max-width: 480px;
@@ -190,6 +191,9 @@ body {
   height: 117px;
   flex-shrink: 0;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .follower_box {
   max-width: 480px;
