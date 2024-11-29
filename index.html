@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>devfinder</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="header_box">
+        <h1 id="Header" class="header">devfinder</h1>
+        <button id="mode">
+          <p id="btntext">DARK</p>
+          <i id="main_moon" class="fa-solid fa-moon"></i>
+          <i id="main_sun" class="fa-sharp fa-solid fa-sun"></i>
+        </button>
+      </div>
+      <div id="input_box" class="input_box">
+        <form id="form">
+          <input
+            type="text"
+            id="input"
+            placeholder="Search Github username..."
+          />
+          <p id="error">No results</p>
+          <button id="inpbutton">Search</button>
+        </form>
+      </div>
+      <div id="main_box" class="main_box">
+        <div id="img_box">
+          <img id="image" src="./images/Oval.svg" alt="image" />
+        </div>
+        <div class="info_box">
+          <div class="info_header_box">
+            <div class="something">
+              <h2 id="user">The Octocat</h2>
+              <span id="date">Joined 25 Jan 2011</span>
+            </div>
+            <p id="name">@octocat</p>
+          </div>
+          <div id="scroll_box">
+            <span id="information"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              neque ut officia doloribus similique assumenda maiores ratione
+              repellendus cum amet mollitia, debitis autem totam delectus
+              aperiam. Maxime dicta officiis nemo?</span
+            >
+          </div>
+          <div id="follower_box" class="follower_box">
+            <div class="repos">
+              <p class="sat">Repos</p>
+              <h3 id="numberofrep">8</h3>
+            </div>
+            <div class="repos">
+              <p class="sat">Followers</p>
+              <h3 id="numberoffollower">3938</h3>
+            </div>
+            <div class="repos">
+              <p class="sat">Following</p>
+              <h3 id="numberoffollowing">9</h3>
+            </div>
+          </div>
+          <div class="apsinformation">
+            <div class="left_box">
+              <div class="inbox">
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <p class="decoration" id="loc">San Francisco</p>
+              </div>
+              <div class="inbox">
+                <i class="fa-solid fa-link"></i>
+                <p class="decoration" id="gitlink">https://github.blog</p>
+              </div>
+            </div>
+            <div class="right_box">
+              <div class="inbox">
+                <i class="fa-brands fa-twitter"></i>
+                <p class="decoration" id="twit">Not Available</p>
+              </div>
+              <div class="inbox">
+                <img src="./images/001-office-building.svg" alt="office" />
+                <p class="decoration" id="office">@github</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
